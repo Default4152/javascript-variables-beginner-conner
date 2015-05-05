@@ -6,18 +6,21 @@
     var c =  4;
     var d = a + b + c;
     // What does d evaluate to?
+    3"3"4
 #2.
     var a = 3;
     var b = "3";
     var c = 4;
     var d = a * b * c;
     // What does d evaluate to?
+    "36"
 #3.
     var a = 3;
     var b = "3";
     var c = "4";
     var d = a / b * c;
     // What does d evaluate to?
+    "4"
 #4.
     var a = 3;
     var b = "3";
@@ -27,3 +30,4 @@
     var f = (a / b) * c * d * (e);
     var g = "Hello\n".repeat(f); // Covered in JavaScript for Cats
     // What does g evaluate to?
+    "Hello\n" .repeat(100);
